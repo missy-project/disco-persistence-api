@@ -10,8 +10,7 @@
   <parent>
   	<groupId>org.gesis</groupId>
   	<artifactId>ddi</artifactId>
-  	<version>0.0.3-SNAPSHOT</version>
-  	<relativePath>../ddi/pom.xml</relativePath>
+  	<version>0.0.5-SNAPSHOT</version>
   </parent>
 
   <dependencies>
@@ -43,5 +42,4 @@
 	    </plugin>
   	</plugins>
   </build>
-    <version>0.0.5-SNAPSHOT</version>
 </project>
