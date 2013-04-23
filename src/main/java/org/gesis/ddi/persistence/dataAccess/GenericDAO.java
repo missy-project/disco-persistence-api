@@ -3,12 +3,12 @@ package org.gesis.ddi.persistence.dataAccess;
 import java.util.List;
 
 /**
- * Generic Data Access Object class which defines some basic methods to access objects of type <T>.
+ * Generic Data Access Object class which defines some basic methods to access
+ * objects of type <T>.
  * 
  * @author matthaeus
  * 
  * @param <T>
- * @param <Id>
  */
 public interface GenericDAO<T>
 {
