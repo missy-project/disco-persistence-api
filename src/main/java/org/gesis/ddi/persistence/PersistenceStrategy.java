@@ -8,6 +8,7 @@ import org.gesis.ddi.persistence.dataAccess.DescriptiveStatisticsDAO;
 import org.gesis.ddi.persistence.dataAccess.IdentifiableDAO;
 import org.gesis.ddi.persistence.dataAccess.InstrumentDAO;
 import org.gesis.ddi.persistence.dataAccess.LogicalDataSetDAO;
+import org.gesis.ddi.persistence.dataAccess.PeriodOfTimeDAO;
 import org.gesis.ddi.persistence.dataAccess.QuestionDAO;
 import org.gesis.ddi.persistence.dataAccess.QuestionnaireDAO;
 import org.gesis.ddi.persistence.dataAccess.RepresentationDAO;
@@ -50,6 +51,8 @@ public interface PersistenceStrategy {
 	public QuestionnaireDAO getQuestionnaireDAO();
 
 	public DataFileDAO getDataFileDAO();
+
+	public PeriodOfTimeDAO getPeriodOfTimeDAO();
 
 	public RepresentationDAO getRepresentationDAO();
 
