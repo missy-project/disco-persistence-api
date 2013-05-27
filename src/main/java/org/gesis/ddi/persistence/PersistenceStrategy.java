@@ -66,6 +66,6 @@ public interface PersistenceStrategy {
 
 	public VariableDAO getVariableDAO();
 
-	public VariableDefinitionDAO getDataElementDAO();
+	public VariableDefinitionDAO getVariableDefinitionDAO();
 
 }
