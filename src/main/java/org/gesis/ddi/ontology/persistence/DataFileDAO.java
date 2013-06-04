@@ -1,6 +1,8 @@
-package org.gesis.ddi.persistence.dataAccess;
+package org.gesis.ddi.ontology.persistence;
 
 import org.gesis.ddi.ontology.DataFile;
+import org.gesis.persistence.DAO;
+import org.gesis.persistence.GenericDAO;
 
 /**
  * This interface handles a {@link DataFile}. Methods which are specific for a

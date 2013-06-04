@@ -1,4 +1,5 @@
-package org.gesis.ddi.persistence;
+package org.gesis.persistence;
+
 
 
 /**

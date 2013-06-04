@@ -1,4 +1,4 @@
-package org.gesis.ddi.persistence.dataAccess;
+package org.gesis.persistence;
 
 import java.util.List;
 
