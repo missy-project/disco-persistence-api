@@ -17,8 +17,6 @@ import org.gesis.ddi.ontology.persistence.SummaryStatisticsDAO;
 import org.gesis.ddi.ontology.persistence.UniverseDAO;
 import org.gesis.ddi.ontology.persistence.VariableDAO;
 import org.gesis.ddi.ontology.persistence.VariableDefinitionDAO;
-import org.gesis.ddi.persistence.IdentifiableDAO;
-
 
 /**
  * This class is a Factory-class for any DAO that is needed in this application.
@@ -26,10 +24,11 @@ import org.gesis.ddi.persistence.IdentifiableDAO;
  * @author matthaeus
  * 
  */
-public interface PersistenceStrategy {
+public interface PersistenceStrategy
+{
 
 	// public void persist(BaseEntity object);
-	
+
 	public <T> T getDAO( Class<T> daoClass );
 
 	public AnalysisUnitDAO getAnalysisUnitDAO();
@@ -39,8 +38,6 @@ public interface PersistenceStrategy {
 	public ConceptDAO getConceptDAO();
 
 	public DescriptiveStatisticsDAO getDescriptiveStatisticsDAO();
-
-	public IdentifiableDAO getIdentifiableDAO();
 
 	public InstrumentDAO getInstrumentDAO();
 
