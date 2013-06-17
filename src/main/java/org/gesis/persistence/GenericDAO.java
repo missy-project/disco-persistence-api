@@ -3,8 +3,8 @@ package org.gesis.persistence;
 import java.util.List;
 
 /**
- * Generic Data Access Object class which defines some basic methods to access
- * objects of type <T>.
+ * Generic DAO-class (Data Access Object), which defines some basic methods to
+ * access objects of type <T>.
  * 
  * @author matthaeus
  * 
@@ -21,6 +21,12 @@ public interface GenericDAO<T>
 	 * @return
 	 */
 	T getById( String urn, boolean lock );
+
+	/**
+	 * @param urn
+	 * @return
+	 */
+	T getByURN( String urn );
 
 	/**
 	 * Returns a list of all objects.
