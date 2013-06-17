@@ -14,16 +14,21 @@ public interface GenericDAO<T>
 {
 
 	/**
-	 * Returns the object by id.
+	 * Returns the object by <i>id</i>. With <i>id</id> is meant the technical
+	 * id of an object by means of the physical data storage that is used. This
+	 * <i>id</i> is not considered as the functional identifier of an object of
+	 * type T. For instance, in case a relational database is used the id could
+	 * be a uuid.
 	 * 
 	 * @param id
 	 * @param lock
 	 * @return
 	 */
-	T getById( String urn, boolean lock );
+	T getById( String id, boolean lock );
 
 	/**
-	 * Returns the object by the URN-property of Identifiable-class.
+	 * Returns the object by <i>URN</i>. The <i>URN</i> is considered the
+	 * functional identifier for an object.
 	 * 
 	 * @param urn
 	 * @return
