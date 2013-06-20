@@ -1,6 +1,5 @@
 package org.gesis.persistence;
 
-import org.gesis.ddi.persistence.IdentifiableDAO;
 import org.gesis.discovery.persistence.AnalysisUnitDAO;
 import org.gesis.discovery.persistence.CategoryStatisticsDAO;
 import org.gesis.discovery.persistence.ConceptDAO;
