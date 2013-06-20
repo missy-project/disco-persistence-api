@@ -1,4 +1,4 @@
-package org.gesis.ddi.ontology.persistence;
+package org.gesis.discovery.persistence;
 
 import org.gesis.dcterms.PeriodOfTime;
 import org.gesis.persistence.GenericDAO;

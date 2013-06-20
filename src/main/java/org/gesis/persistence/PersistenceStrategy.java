@@ -1,23 +1,23 @@
 package org.gesis.persistence;
 
-import org.gesis.ddi.ontology.persistence.AnalysisUnitDAO;
-import org.gesis.ddi.ontology.persistence.CategoryStatisticsDAO;
-import org.gesis.ddi.ontology.persistence.ConceptDAO;
-import org.gesis.ddi.ontology.persistence.DataFileDAO;
-import org.gesis.ddi.ontology.persistence.DescriptiveStatisticsDAO;
-import org.gesis.ddi.ontology.persistence.InstrumentDAO;
-import org.gesis.ddi.ontology.persistence.LogicalDataSetDAO;
-import org.gesis.ddi.ontology.persistence.PeriodOfTimeDAO;
-import org.gesis.ddi.ontology.persistence.QuestionDAO;
-import org.gesis.ddi.ontology.persistence.QuestionnaireDAO;
-import org.gesis.ddi.ontology.persistence.RepresentationDAO;
-import org.gesis.ddi.ontology.persistence.StudyDAO;
-import org.gesis.ddi.ontology.persistence.StudyGroupDAO;
-import org.gesis.ddi.ontology.persistence.SummaryStatisticsDAO;
-import org.gesis.ddi.ontology.persistence.UniverseDAO;
-import org.gesis.ddi.ontology.persistence.VariableDAO;
-import org.gesis.ddi.ontology.persistence.VariableDefinitionDAO;
 import org.gesis.ddi.persistence.IdentifiableDAO;
+import org.gesis.discovery.persistence.AnalysisUnitDAO;
+import org.gesis.discovery.persistence.CategoryStatisticsDAO;
+import org.gesis.discovery.persistence.ConceptDAO;
+import org.gesis.discovery.persistence.DataFileDAO;
+import org.gesis.discovery.persistence.DescriptiveStatisticsDAO;
+import org.gesis.discovery.persistence.InstrumentDAO;
+import org.gesis.discovery.persistence.LogicalDataSetDAO;
+import org.gesis.discovery.persistence.PeriodOfTimeDAO;
+import org.gesis.discovery.persistence.QuestionDAO;
+import org.gesis.discovery.persistence.QuestionnaireDAO;
+import org.gesis.discovery.persistence.RepresentationDAO;
+import org.gesis.discovery.persistence.StudyDAO;
+import org.gesis.discovery.persistence.StudyGroupDAO;
+import org.gesis.discovery.persistence.SummaryStatisticsDAO;
+import org.gesis.discovery.persistence.UniverseDAO;
+import org.gesis.discovery.persistence.VariableDAO;
+import org.gesis.discovery.persistence.VariableDefinitionDAO;
 
 
 /**

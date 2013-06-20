@@ -1,6 +1,6 @@
-package org.gesis.ddi.ontology.persistence;
+package org.gesis.discovery.persistence;
 
-import org.gesis.ddi.ontology.AnalysisUnit;
+import org.gesis.discovery.AnalysisUnit;
 import org.gesis.persistence.DAO;
 import org.gesis.persistence.GenericDAO;
 
