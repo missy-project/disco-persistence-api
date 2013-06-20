@@ -1,6 +1,6 @@
-package org.gesis.ddi.ontology.persistence;
+package org.gesis.discovery.persistence;
 
-import org.gesis.ddi.ontology.VariableDefinition;
+import org.gesis.discovery.VariableDefinition;
 import org.gesis.persistence.DAO;
 import org.gesis.persistence.GenericDAO;
 
