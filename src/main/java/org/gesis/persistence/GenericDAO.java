@@ -33,7 +33,7 @@ public interface GenericDAO<T>
 	 * @param urn
 	 * @return
 	 */
-	T getByURN( String urn );
+	PersistableResource getByURN( String urn );
 
 	/**
 	 * Returns a list of all objects.
