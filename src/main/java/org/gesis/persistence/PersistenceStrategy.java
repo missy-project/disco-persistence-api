@@ -17,13 +17,14 @@ import org.gesis.discovery.persistence.SummaryStatisticsDAO;
 import org.gesis.discovery.persistence.UniverseDAO;
 import org.gesis.discovery.persistence.VariableDAO;
 import org.gesis.discovery.persistence.VariableDefinitionDAO;
+import org.gesis.rdf.persistence.ListDAO;
 
 
 /**
  * This class is a Factory-class for any DAO that is needed in this application.
- * 
+ *
  * @author matthaeus
- * 
+ *
  */
 public interface PersistenceStrategy
 {
@@ -41,6 +42,8 @@ public interface PersistenceStrategy
 	public DescriptiveStatisticsDAO getDescriptiveStatisticsDAO();
 
 	public InstrumentDAO getInstrumentDAO();
+
+	public ListDAO getListDAO();
 
 	public LogicalDataSetDAO getLogicalDataSetDAO();
 
