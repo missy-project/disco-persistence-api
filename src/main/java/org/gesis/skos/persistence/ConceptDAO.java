@@ -1,4 +1,4 @@
-package org.gesis.discovery.persistence;
+package org.gesis.skos.persistence;
 
 import org.gesis.persistence.DAO;
 import org.gesis.persistence.GenericDAO;
