@@ -2,7 +2,6 @@ package org.gesis.persistence;
 
 import org.gesis.discovery.persistence.AnalysisUnitDAO;
 import org.gesis.discovery.persistence.CategoryStatisticsDAO;
-import org.gesis.discovery.persistence.ConceptDAO;
 import org.gesis.discovery.persistence.DataFileDAO;
 import org.gesis.discovery.persistence.DescriptiveStatisticsDAO;
 import org.gesis.discovery.persistence.InstrumentDAO;
@@ -18,6 +17,8 @@ import org.gesis.discovery.persistence.UniverseDAO;
 import org.gesis.discovery.persistence.VariableDAO;
 import org.gesis.discovery.persistence.VariableDefinitionDAO;
 import org.gesis.rdf.persistence.ListDAO;
+import org.gesis.skos.persistence.ConceptDAO;
+import org.gesis.skos.persistence.ConceptSchemeDAO;
 import org.gesis.skos.persistence.OrderedCollectionDAO;
 
 
@@ -39,6 +40,8 @@ public interface PersistenceStrategy
 	public CategoryStatisticsDAO getCategoryStatisticsDAO();
 
 	public ConceptDAO getConceptDAO();
+
+	public ConceptSchemeDAO getConceptSchemeDAO();
 
 	public DescriptiveStatisticsDAO getDescriptiveStatisticsDAO();
 
