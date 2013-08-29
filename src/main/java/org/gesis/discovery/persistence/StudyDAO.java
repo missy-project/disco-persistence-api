@@ -14,4 +14,11 @@ import org.gesis.persistence.GenericDAO;
 public interface StudyDAO extends GenericDAO<Study>, DAO
 {
 
+	/**
+	 * Returns the Study-object by <i>studyName</i>.
+	 * 
+	 * @param studyName
+	 * @return
+	 */
+	public Study getByName( String studyName );
 }
