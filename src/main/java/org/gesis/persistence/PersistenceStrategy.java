@@ -17,6 +17,7 @@ import org.gesis.discovery.persistence.UniverseDAO;
 import org.gesis.discovery.persistence.VariableDAO;
 import org.gesis.discovery.persistence.VariableDefinitionDAO;
 import org.gesis.rdf.persistence.ListDAO;
+import org.gesis.rdfs.persistence.ResourceDAO;
 import org.gesis.skos.persistence.ConceptDAO;
 import org.gesis.skos.persistence.ConceptSchemeDAO;
 import org.gesis.skos.persistence.OrderedCollectionDAO;
@@ -60,6 +61,8 @@ public interface PersistenceStrategy
 	public PeriodOfTimeDAO getPeriodOfTimeDAO();
 
 	public RepresentationDAO getRepresentationDAO();
+
+	public ResourceDAO getResourceDAO();
 
 	public OrderedCollectionDAO getOrderedCollectionDAO();
 
