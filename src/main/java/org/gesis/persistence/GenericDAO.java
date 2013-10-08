@@ -2,6 +2,8 @@ package org.gesis.persistence;
 
 import java.util.List;
 
+import org.gesis.rdf.LangString;
+
 /**
  * Generic DAO-class (Data Access Object), which defines some basic methods to
  * access objects of type <T>.
@@ -55,6 +57,15 @@ public interface GenericDAO<T>
 	List<T> getByExample( T exampleInstance, String... excludeProperty );
 
 	/**
+	 * Returns the object by its <i>prefLabel</i>. Each object has a preferred
+	 * label, due to the fact that each object is-a {@link Resource}.
+	 * 
+	 * @param prefLabel
+	 * @return
+	 */
+	T getByPrefLabel( Class<T> clazz, LangString prefLabel );
+
+	/**
 	 * Persists or updates <i>entity</i>.
 	 * 
 	 * @param entity
@@ -69,4 +80,5 @@ public interface GenericDAO<T>
 	 * @return
 	 */
 	boolean delete( T entity );
+
 }
