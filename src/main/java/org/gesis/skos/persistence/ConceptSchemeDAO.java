@@ -1,5 +1,6 @@
 package org.gesis.skos.persistence;
 
+import org.gesis.persistence.DAO;
 import org.gesis.persistence.GenericDAO;
 import org.gesis.skos.ConceptScheme;
 
@@ -7,7 +8,7 @@ import org.gesis.skos.ConceptScheme;
  * @author matthaeus
  * 
  */
-public interface ConceptSchemeDAO extends GenericDAO<ConceptScheme>
+public interface ConceptSchemeDAO extends GenericDAO<ConceptScheme>, DAO
 {
 
 }
