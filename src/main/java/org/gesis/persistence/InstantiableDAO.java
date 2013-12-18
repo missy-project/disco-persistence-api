@@ -1,5 +1,5 @@
 package org.gesis.persistence;
 
-public interface DAO {
+public interface InstantiableDAO {
 
 }

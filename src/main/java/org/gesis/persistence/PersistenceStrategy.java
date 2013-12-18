@@ -32,7 +32,9 @@ import org.gesis.skos.persistence.OrderedCollectionDAO;
 public interface PersistenceStrategy
 {
 
-	public DAO getDAO( Class<?> clazz );
+	public InstantiableDAO getDAO( Class<?> clazz );
+	
+	public void registerDAO( String name, InstantiableDAO dao);
 
 	public AnalysisUnitDAO getAnalysisUnitDAO();
 

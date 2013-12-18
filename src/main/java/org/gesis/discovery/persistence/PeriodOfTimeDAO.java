@@ -3,14 +3,14 @@ package org.gesis.discovery.persistence;
 import java.util.Date;
 
 import org.gesis.dcterms.PeriodOfTime;
-import org.gesis.persistence.DAO;
+import org.gesis.persistence.InstantiableDAO;
 import org.gesis.persistence.GenericDAO;
 
 /**
  * @author matthaeus
  * 
  */
-public interface PeriodOfTimeDAO extends GenericDAO<PeriodOfTime>, DAO
+public interface PeriodOfTimeDAO extends GenericDAO<PeriodOfTime>, InstantiableDAO
 {
 
 	/**

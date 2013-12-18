@@ -3,7 +3,7 @@ package org.gesis.discovery.persistence;
 import java.util.List;
 
 import org.gesis.discovery.AnalysisUnit;
-import org.gesis.persistence.DAO;
+import org.gesis.persistence.InstantiableDAO;
 import org.gesis.persistence.GenericDAO;
 
 /**
@@ -13,7 +13,7 @@ import org.gesis.persistence.GenericDAO;
  * @author matthaeus
  * 
  */
-public interface AnalysisUnitDAO extends GenericDAO<AnalysisUnit>, DAO
+public interface AnalysisUnitDAO extends GenericDAO<AnalysisUnit>, InstantiableDAO
 {
 
 	/**

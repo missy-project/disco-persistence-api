@@ -1,7 +1,7 @@
 package org.gesis.discovery.persistence;
 
 import org.gesis.discovery.Universe;
-import org.gesis.persistence.DAO;
+import org.gesis.persistence.InstantiableDAO;
 import org.gesis.persistence.GenericDAO;
 
 /**
@@ -11,7 +11,7 @@ import org.gesis.persistence.GenericDAO;
  * @author matthaeus
  * 
  */
-public interface UniverseDAO extends GenericDAO<Universe>, DAO
+public interface UniverseDAO extends GenericDAO<Universe>, InstantiableDAO
 {
 
 }

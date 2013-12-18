@@ -1,7 +1,7 @@
 package org.gesis.discovery.persistence;
 
 import org.gesis.discovery.CategoryStatistics;
-import org.gesis.persistence.DAO;
+import org.gesis.persistence.InstantiableDAO;
 import org.gesis.persistence.GenericDAO;
 
 /**
@@ -11,7 +11,7 @@ import org.gesis.persistence.GenericDAO;
  * @author matthaeus
  * 
  */
-public interface CategoryStatisticsDAO extends GenericDAO<CategoryStatistics>, DAO
+public interface CategoryStatisticsDAO extends GenericDAO<CategoryStatistics>, InstantiableDAO
 {
 
 }

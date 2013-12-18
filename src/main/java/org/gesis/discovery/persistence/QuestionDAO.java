@@ -1,7 +1,7 @@
 package org.gesis.discovery.persistence;
 
 import org.gesis.discovery.Question;
-import org.gesis.persistence.DAO;
+import org.gesis.persistence.InstantiableDAO;
 import org.gesis.persistence.GenericDAO;
 
 
@@ -12,7 +12,7 @@ import org.gesis.persistence.GenericDAO;
  * @author matthaeus
  * 
  */
-public interface QuestionDAO extends GenericDAO<Question>, DAO
+public interface QuestionDAO extends GenericDAO<Question>, InstantiableDAO
 {
 
 }

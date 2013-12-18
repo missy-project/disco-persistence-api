@@ -2,7 +2,7 @@ package org.gesis.skos.persistence;
 
 import java.util.List;
 
-import org.gesis.persistence.DAO;
+import org.gesis.persistence.InstantiableDAO;
 import org.gesis.persistence.GenericDAO;
 import org.gesis.skos.Concept;
 
@@ -13,7 +13,7 @@ import org.gesis.skos.Concept;
  * @author matthaeus
  * 
  */
-public interface ConceptDAO extends GenericDAO<Concept>, DAO
+public interface ConceptDAO extends GenericDAO<Concept>, InstantiableDAO
 {
 
 	/**
