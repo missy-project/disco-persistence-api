@@ -1,8 +1,8 @@
 package org.gesis.discovery.persistence;
 
 import org.gesis.discovery.Study;
-import org.gesis.persistence.InstantiableDAO;
 import org.gesis.persistence.GenericDAO;
+import org.gesis.persistence.InstantiableDAO;
 
 /**
  * This interface handles a {@link Study}. Methods which are specific for a
@@ -15,10 +15,12 @@ public interface StudyDAO extends GenericDAO<Study>, InstantiableDAO
 {
 
 	/**
-	 * Returns the Study-object by <i>studyName</i>.
+	 * Returns the Study-object by <i>studyTitle</i> and <i>studyYear</i>, which
+	 * is obtained from the relation Study.temporal (PeriodOfTime).
 	 * 
-	 * @param studyName
+	 * @param studyTitle
+	 * @param studyYear
 	 * @return
 	 */
-	public Study getByName( String studyName );
+	public Study getByTitle( String studyTitle, String studyYear );
 }
