@@ -26,15 +26,17 @@ public interface GenericDAO<T>
 	 * @param lock
 	 * @return
 	 */
-	T getById( String id, boolean lock );
+	T getById( String id );
 
 	/**
 	 * Returns the object by <i>URN</i>. The <i>URN</i> is considered the
 	 * functional identifier for an object.
 	 * 
+	 * @deprecated
 	 * @param urn
 	 * @return
 	 */
+	@Deprecated
 	<R> R getByURN( Class<R> clazz, String urn );
 
 	/**
@@ -60,10 +62,12 @@ public interface GenericDAO<T>
 	 * Returns the object by its <i>prefLabel</i>. Each object has a preferred
 	 * label, due to the fact that each object is-a {@link Resource}.
 	 * 
+	 * @deprecated
 	 * @param prefLabel
 	 * @return
 	 */
-	T getByPrefLabel( Class<T> clazz, LangString prefLabel );
+	@Deprecated
+	T getByPrefLabel( LangString prefLabel );
 
 	/**
 	 * Persists or updates <i>entity</i>.
