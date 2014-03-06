@@ -1,10 +1,8 @@
 package org.gesis.discovery.persistence;
 
-import java.util.List;
-
 import org.gesis.discovery.AnalysisUnit;
-import org.gesis.persistence.InstantiableDAO;
 import org.gesis.persistence.GenericDAO;
+import org.gesis.persistence.InstantiableDAO;
 
 /**
  * This interface handles a {@link AnalysisUnit}. Methods which are specific for
@@ -17,11 +15,11 @@ public interface AnalysisUnitDAO extends GenericDAO<AnalysisUnit>, InstantiableD
 {
 
 	/**
-	 * Returns a List of AnalysisUnits where property AnalysisUnit.notation
-	 * equals <i>notation</i>.
+	 * Returns an AnalysisUnit where property AnalysisUnit.notation equals
+	 * <i>notation</i>.
 	 * 
 	 * @param notation
 	 * @return
 	 */
-	public List<AnalysisUnit> getByNotation( String notation );
+	public AnalysisUnit getByNotation( String notation );
 }
