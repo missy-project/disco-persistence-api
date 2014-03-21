@@ -15,7 +15,7 @@ import org.gesis.discovery.persistence.StudyGroupDAO;
 import org.gesis.discovery.persistence.SummaryStatisticsDAO;
 import org.gesis.discovery.persistence.UniverseDAO;
 import org.gesis.discovery.persistence.VariableDAO;
-import org.gesis.discovery.persistence.VariableDefinitionDAO;
+import org.gesis.discovery.persistence.RepresentedVariableDAO;
 import org.gesis.rdf.persistence.ListDAO;
 import org.gesis.rdfs.persistence.ResourceDAO;
 import org.gesis.skos.persistence.ConceptDAO;
@@ -76,6 +76,6 @@ public interface PersistenceStrategy
 
 	public VariableDAO getVariableDAO();
 
-	public VariableDefinitionDAO getVariableDefinitionDAO();
+	public RepresentedVariableDAO getVariableDefinitionDAO();
 
 }
