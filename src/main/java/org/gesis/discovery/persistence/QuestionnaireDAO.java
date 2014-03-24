@@ -1,8 +1,8 @@
 package org.gesis.discovery.persistence;
 
 import org.gesis.discovery.Questionnaire;
+import org.gesis.persistence.GenericResourceDAO;
 import org.gesis.persistence.InstantiableDAO;
-import org.gesis.persistence.GenericDAO;
 
 /**
  * This interface handles a {@link Questionnaire}. Methods which are specific
@@ -11,7 +11,7 @@ import org.gesis.persistence.GenericDAO;
  * @author matthaeus
  * 
  */
-public interface QuestionnaireDAO extends GenericDAO<Questionnaire>, InstantiableDAO
+public interface QuestionnaireDAO extends GenericResourceDAO<Questionnaire>, InstantiableDAO
 {
 
 }

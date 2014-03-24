@@ -1,8 +1,8 @@
 package org.gesis.discovery.persistence;
 
 import org.gesis.discovery.Representation;
+import org.gesis.persistence.GenericResourceDAO;
 import org.gesis.persistence.InstantiableDAO;
-import org.gesis.persistence.GenericDAO;
 
 /**
  * This interface handles a {@link Representation}. Methods which are specific
@@ -11,7 +11,7 @@ import org.gesis.persistence.GenericDAO;
  * @author matthaeus
  * 
  */
-public interface RepresentationDAO extends GenericDAO<Representation>, InstantiableDAO
+public interface RepresentationDAO extends GenericResourceDAO<Representation>, InstantiableDAO
 {
 
 }

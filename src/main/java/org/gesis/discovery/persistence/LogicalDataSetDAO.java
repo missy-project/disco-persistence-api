@@ -1,8 +1,8 @@
 package org.gesis.discovery.persistence;
 
 import org.gesis.discovery.LogicalDataSet;
+import org.gesis.persistence.GenericResourceDAO;
 import org.gesis.persistence.InstantiableDAO;
-import org.gesis.persistence.GenericDAO;
 
 /**
  * This interface handles a {@link LogicalDataSet}. Methods which are specific
@@ -11,7 +11,7 @@ import org.gesis.persistence.GenericDAO;
  * @author matthaeus
  * 
  */
-public interface LogicalDataSetDAO extends GenericDAO<LogicalDataSet>, InstantiableDAO
+public interface LogicalDataSetDAO extends GenericResourceDAO<LogicalDataSet>, InstantiableDAO
 {
 
 }

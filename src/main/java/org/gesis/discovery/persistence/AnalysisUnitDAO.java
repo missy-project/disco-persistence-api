@@ -1,7 +1,7 @@
 package org.gesis.discovery.persistence;
 
 import org.gesis.discovery.AnalysisUnit;
-import org.gesis.persistence.GenericDAO;
+import org.gesis.persistence.GenericResourceDAO;
 import org.gesis.persistence.InstantiableDAO;
 
 /**
@@ -11,7 +11,7 @@ import org.gesis.persistence.InstantiableDAO;
  * @author matthaeus
  * 
  */
-public interface AnalysisUnitDAO extends GenericDAO<AnalysisUnit>, InstantiableDAO
+public interface AnalysisUnitDAO extends GenericResourceDAO<AnalysisUnit>, InstantiableDAO
 {
 
 	/**

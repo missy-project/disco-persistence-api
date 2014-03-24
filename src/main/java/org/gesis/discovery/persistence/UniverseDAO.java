@@ -1,8 +1,8 @@
 package org.gesis.discovery.persistence;
 
 import org.gesis.discovery.Universe;
+import org.gesis.persistence.GenericResourceDAO;
 import org.gesis.persistence.InstantiableDAO;
-import org.gesis.persistence.GenericDAO;
 
 /**
  * This interface handles a {@link Universe}. Methods which are specific for a
@@ -11,7 +11,7 @@ import org.gesis.persistence.GenericDAO;
  * @author matthaeus
  * 
  */
-public interface UniverseDAO extends GenericDAO<Universe>, InstantiableDAO
+public interface UniverseDAO extends GenericResourceDAO<Universe>, InstantiableDAO
 {
 
 }

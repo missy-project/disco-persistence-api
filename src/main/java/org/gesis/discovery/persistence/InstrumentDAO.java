@@ -1,8 +1,8 @@
 package org.gesis.discovery.persistence;
 
 import org.gesis.discovery.Instrument;
+import org.gesis.persistence.GenericResourceDAO;
 import org.gesis.persistence.InstantiableDAO;
-import org.gesis.persistence.GenericDAO;
 
 /**
  * This interface handles a {@link Instrument}. Methods which are specific for a
@@ -11,7 +11,7 @@ import org.gesis.persistence.GenericDAO;
  * @author matthaeus
  * 
  */
-public interface InstrumentDAO extends GenericDAO<Instrument>, InstantiableDAO
+public interface InstrumentDAO extends GenericResourceDAO<Instrument>, InstantiableDAO
 {
 
 }

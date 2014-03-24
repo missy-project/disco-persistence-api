@@ -1,7 +1,7 @@
 package org.gesis.discovery.persistence;
 
 import org.gesis.discovery.Study;
-import org.gesis.persistence.GenericDAO;
+import org.gesis.persistence.GenericResourceDAO;
 import org.gesis.persistence.InstantiableDAO;
 
 /**
@@ -11,7 +11,7 @@ import org.gesis.persistence.InstantiableDAO;
  * @author matthaeus
  * 
  */
-public interface StudyDAO extends GenericDAO<Study>, InstantiableDAO
+public interface StudyDAO extends GenericResourceDAO<Study>, InstantiableDAO
 {
 
 	/**

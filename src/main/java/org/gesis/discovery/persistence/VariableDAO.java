@@ -1,8 +1,8 @@
 package org.gesis.discovery.persistence;
 
 import org.gesis.discovery.Variable;
+import org.gesis.persistence.GenericResourceDAO;
 import org.gesis.persistence.InstantiableDAO;
-import org.gesis.persistence.GenericDAO;
 
 /**
  * This interface handles a {@link Variable}. Methods which are specific for a
@@ -11,7 +11,7 @@ import org.gesis.persistence.GenericDAO;
  * @author matthaeus
  * 
  */
-public interface VariableDAO extends GenericDAO<Variable>, InstantiableDAO
+public interface VariableDAO extends GenericResourceDAO<Variable>, InstantiableDAO
 {
 
 }
