@@ -14,4 +14,11 @@ import org.gesis.persistence.InstantiableDAO;
 public interface UniverseDAO extends GenericResourceDAO<Universe>, InstantiableDAO
 {
 
+	/**
+	 * Returns the Universe by definition property (LangString.en)
+	 * 
+	 * @param definition
+	 * @return
+	 */
+	public Universe getByDefinitionEn( String definition );
 }
