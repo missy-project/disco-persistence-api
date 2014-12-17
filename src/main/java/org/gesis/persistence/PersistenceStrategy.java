@@ -10,12 +10,12 @@ import org.gesis.discovery.persistence.PeriodOfTimeDAO;
 import org.gesis.discovery.persistence.QuestionDAO;
 import org.gesis.discovery.persistence.QuestionnaireDAO;
 import org.gesis.discovery.persistence.RepresentationDAO;
+import org.gesis.discovery.persistence.RepresentedVariableDAO;
 import org.gesis.discovery.persistence.StudyDAO;
 import org.gesis.discovery.persistence.StudyGroupDAO;
 import org.gesis.discovery.persistence.SummaryStatisticsDAO;
 import org.gesis.discovery.persistence.UniverseDAO;
 import org.gesis.discovery.persistence.VariableDAO;
-import org.gesis.discovery.persistence.RepresentedVariableDAO;
 import org.gesis.rdf.persistence.ListDAO;
 import org.gesis.rdfs.persistence.ResourceDAO;
 import org.gesis.skos.persistence.ConceptDAO;
@@ -34,8 +34,6 @@ public interface PersistenceStrategy
 
 	public InstantiableDAO getDAO( Class<?> clazz );
 	
-	public void registerDAO( String name, InstantiableDAO dao);
-
 	public AnalysisUnitDAO getAnalysisUnitDAO();
 
 	public CategoryStatisticsDAO getCategoryStatisticsDAO();
