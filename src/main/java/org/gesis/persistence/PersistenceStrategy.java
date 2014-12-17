@@ -74,6 +74,6 @@ public interface PersistenceStrategy
 
 	public VariableDAO getVariableDAO();
 
-	public RepresentedVariableDAO getVariableDefinitionDAO();
+	public RepresentedVariableDAO getRepresentedVariableDAO();
 
 }
