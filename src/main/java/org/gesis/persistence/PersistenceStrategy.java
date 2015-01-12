@@ -1,12 +1,12 @@
 package org.gesis.persistence;
 
+import org.gesis.dcterms.persistence.PeriodOfTimeDAO;
 import org.gesis.discovery.persistence.AnalysisUnitDAO;
 import org.gesis.discovery.persistence.CategoryStatisticsDAO;
 import org.gesis.discovery.persistence.DataFileDAO;
 import org.gesis.discovery.persistence.DescriptiveStatisticsDAO;
 import org.gesis.discovery.persistence.InstrumentDAO;
 import org.gesis.discovery.persistence.LogicalDataSetDAO;
-import org.gesis.discovery.persistence.PeriodOfTimeDAO;
 import org.gesis.discovery.persistence.QuestionDAO;
 import org.gesis.discovery.persistence.QuestionnaireDAO;
 import org.gesis.discovery.persistence.RepresentationDAO;
